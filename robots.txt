@@ -1,0 +1,7 @@
+User-agent: * 
+Disallow: /m/
+Disallow: /data/
+Disallow: /include
+Disallow: /templets/
+
+sitemap:http://www.lm1998.cn/sitemap.xml

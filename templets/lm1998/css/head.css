@@ -1,0 +1,37 @@
+﻿/*===================  index css  ================*/
+.iheadbg {display:block;width:100%;height:70px;background-color:#f7f7f7;border-bottom:1px solid #eee;}
+.ihead {display:block;width:1000px;margin:0 auto;height:60px;position:relative;background-color:#f7f7f7;}
+.ihead .logo {float:left;width:175px;height:70px;background: url(../images/tlogo2.png) no-repeat 5px 12px;}
+.ihead .menu {float:left;padding:26px 0 0 40px;line-height:24px;font-size:15px;color:#ccc; background-color:#f7f7f7;}
+.ihead .menu a {display:inline;padding:0 15px;}
+.ihead .menu a.i {color:#009900;}
+.ihead .sobox {position:absolute;width:220px;top:5px;right:0;}
+/*===================  当前位置  ================*/
+._weizhi {display:block;clear:both;height:40px;line-height:28px;font-size:14px;color:#999;padding-top:11px;padding-left:25px;background:url(../images/weizhi.png) no-repeat left 16px;border-bottom:1px solid #eee;}
+._weizhi a {color:#333;}
+/*===================  搜索  ================*/
+
+.sobox {position:absolute;width:220px;  background-color:#f7f7f7;   right:0; }
+
+.searchBar{ width:226px; _width:190px; overflow:hidden; height:30px; _height:34px;margin-top:15px; background:#FFF;border-radius:50px; border:2px solid #E2E2E2; background:#FAFAFA;  _background: url(../images/nav_search.png); _border:0px;  overflow:hidden; display:inline-block; float:left; }
+.navsearch{color:#3CAC4C;width:140px;height:30px;float:left;background: transparent; font-size:14px;border: 0px;line-height: 30px;display: block;margin-left: 10px; _margin-left: 5px;padding: 0px;outline:none;}
+.searchButton{float: right; display:block; height:18px;width: 18px;margin-top: 6px; margin-right: 8px; _margin-right:4px; border:0px; line-height:18px;}
+.searchButton input{border:none;cursor:pointer;	height:18px;width: 18px; background:url(../images/nav_search.png) -190px 0px;}
+
+/*底部*/
+.footer{height: auto; background:#EEEEEE;color:#aaa; border-top:1px solid #E2E2E2; padding:18px; text-align:center;}
+.footer p{ background:#EEEEEE; font-size:14px; text-align:center;}
+.footer p a{ padding:0px 10px;}
+.stat{ font-style:normal; visibility:hidden;}                                   
+.hotsearch{ display:inline; float:right; font-size:14px;}                       
+.hotsearch a{ padding-left:10px; color:red; float: left;}                    
+/*返回顶部*/                                                                    
+.BackTop_box{ height:220px;position:fixed; display:block;z-index:9998;width:120px;  height:226px;   right:50px; bottom:30px;background:none;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,30)||50)));}
+.BackTop_box p{ background:none;}                                               
+.BackTop{ padding-left:27px; padding-top:20px;}                                 
+.BackTop a{width: 66px;  height:66px;  background: url(../images/info_custom.png) -246px 0px;display:block;}
+.BackTop a:hover{ background: url(../images/info_custom.png) -322px 0px;}                      
+.weixin{ padding:10px; background:#E6E6E6; text-align:center; color:#7F7F7F; width:100px;height:120px;}
+.weixin .img{ width:100px; height:100px;background: url(../images/info_custom.png) -391px 0px; display:block;}
+.weixin p{ text-align:center; font-size:14px; line-height:28px;}
+
